@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar styles */
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgb(240, 240, 240);  
+}
+
+.nav-logo {
+    padding-left: 26px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-weight: 600;
+    font-size: 17px;
+    padding: 22px;
+}
+
+.nav-links a:hover {
+    transition: 0.2s;
+    color: #3180ff;
+}
+
+.nav-icons {
+    width: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fa-magnifying-glass, .fa-cart-shopping {
+    color: rgb(75, 75, 75);
+    font-size: 20px;
+}
+
+.fa-magnifying-glass:hover, .fa-cart-shopping:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    color: #3180ff;
+}
+
+.nav-icons button {
+    padding: 12px 26px;
+    background-color: #0062ff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav-icons button:hover {
+    background-color: #3180ff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Navbar complete */
+
+/* section 1 styles */
+
+.sec-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec1-cnt {
+    margin-top: 65px;
+}
+
+.sec1-cnt h1{
+    color: #171717;
+    font-size: 64px;
+    padding: 80px;
+}
+
+.sec1-cnt span {
+    color: #ee4962;
+}
+
+.sec1-cnt p {
+    color: #171717;
+    font-size: 20px;
+    margin: 18px 0 30px;
+}
+
+.sec1-cnt button {
+    padding: 14px 26px;
+    background-color: #0062ff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sec1-cnt button:hover {
+    background-color: #3180ff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sec1-imgs {
+    padding: 20px;
+}
+
+.img-1 {
+    margin-right: 22px;
+    margin-top: -60px;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 120px;
+}
+
+.img-2 {
+    margin-bottom: -160px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 100px;
+}
+
+/* Section 1 complete */
+
+/* Section 2 styles */
+
