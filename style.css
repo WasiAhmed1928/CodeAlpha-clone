@@ -8,7 +8,7 @@
 /* Navbar styles */
 
 nav {
-    height: 100px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -438,7 +438,7 @@ nav {
 
 .sec4-btn {
     padding: 14px 26px;
-    margin: 10px 0px 0px;
+    margin: 50px 0px 30px;
     background-color: #0062ff;
     color: white;
     border: none;
@@ -454,3 +454,254 @@ nav {
 }
 
 /* Section 4 complete */
+
+/* Section 5 styles */
+
+.sec-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 300px;
+}
+
+.sec5-img1 {
+    background-image: url("./Assets/asset\ 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;  
+    text-align: center;
+}
+
+.sec5-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.sec5-cnt div h3 {
+    font-size: 45px;
+}
+
+.sec5-cnt div p {
+    color: #171717;
+    font-size: 16px;
+}
+
+.sec5-cart1 {
+    width: 250px;
+    height: 140px;
+    color: #1ab79d;
+    background-color: #1ab79d1a;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.sec5-cart2 {
+    width: 250px;
+    height: 140px;
+    color: #ee4962;
+    background-color: #ee49621a;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.sec5-cart3 {
+    width: 250px;
+    height: 140px;
+    color: #8f57ff;
+    background-color: #8f57ff1a;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.sec5-cart4 {
+    width: 250px;
+    height: 140px;
+    color: #f8b720;
+    background-color: #f8b7201a;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+/* Section 5 complete */
+
+/* Section 6 styles */
+
+.sec-6 {
+    width: 1150px;
+    height: 880px;
+    margin: 80px 0px;
+    padding: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.080);
+}
+
+.sec6-cnt {
+    text-align: center;
+    margin: 0px 0px 40px;
+}
+
+.sec6-cnt h2 {
+    color: #185a9d;
+    font-size: 28px;
+    margin: 0px 0px 15px;
+}
+
+.sec6-cnt p {
+    color: #555555;
+    font-size: 15.5px;
+    margin: 0px 152.5px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.form-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.form-cnt {
+    width: 480px;
+    height: 600px;
+    padding: 30px 40px;
+    background-color: #f7faff;
+    border-left: 6px solid rgba(0, 0, 231, 0.718);
+    border-radius: 15px;
+}
+
+.form-cnt h3 {
+    color: #185a9d;
+    font-size: 16px;
+    margin: 0px 0px 15px;
+}
+
+.form-cnt p {
+    color: #444444;
+    font-size: 16px;
+    margin: 0px 0px 15px;
+    letter-spacing: 0.3px;
+    line-height: 23px;
+}
+
+.form-cnt div {
+    margin: 20px 0px 0px;
+    letter-spacing: 0.5px;
+}
+
+strong {
+    color: #808080;
+}
+
+strong i {
+    margin-right: 15px;
+    color: rgba(0, 0, 231, 0.854);
+    font-size: 13px;
+}
+
+.form {
+    width: 480px;
+    height: 600px;
+    padding: 30px 40px;
+    background-color: #f9fbfd;
+    border-left: 6px solid rgba(0, 204, 146, 0.864);
+    border-radius: 15px;
+}
+
+.form h3 {
+    color: #185a9d;
+    font-size: 16px;
+    margin: 0px 0px 20px;
+}
+
+.form label {
+    color: #333333;
+    font-size: 16px;
+    margin: 0px 0px 6px;
+    line-height: 28px;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px 14px;
+    background-color: transparent;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 8px;
+}
+
+.form textarea {
+    width: 100%;
+    height: 82px;
+    padding: 10px 14px;
+    margin: 0px 0px 15px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 8px;
+}
+
+.form button {
+    padding: 12px 26px;
+    background-color: #00cc8b;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #00d289;
+    transition: 0.2s;
+}
+
+/* Section 6 complete */
+
+/* Footer styles */
+
+footer {
+    width: 100%;
+    height: 380px;
+    background-color: #24262b;
+    color: white;
+}
+
+.footer-cnt {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+}
+
+.list h4 {
+    font-size: 20px;
+    margin: 0px 0px 35px;
+    border-bottom: 2px solid rgb(211, 0, 84);
+    line-height: 50px;
+}
+
+.list ul li {
+    list-style-type: none;
+    color: #bbbbbb;
+    font-size: 16px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+.list-icons ul a>i {
+    color: #bbbbbb;
+    font-size: 30px;
+    margin-right: 15px;
+}
