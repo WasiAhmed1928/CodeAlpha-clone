@@ -78,6 +78,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .sec1-cnt {
@@ -176,13 +177,13 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 80px;
 }
 
 .cart {
     width: 265px;
-    /* height: 380px; */
     padding: 50px 30px;
     border-radius: 5px;
     text-align: center;
@@ -190,7 +191,6 @@ nav {
     justify-items: center;
     align-items: center;
     flex-direction: column;
-    /* gap: 20px; */
 }
 
 .cart div {
@@ -285,6 +285,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 100px;
     margin-top: -85px;
 }
@@ -326,7 +327,7 @@ nav {
     color: #ee4962;
 }
 
-.sec3-cnt p {
+.sec3-para {
     color: #808080;
     font-size: 16px;
     margin: 15px 0px 25px;
@@ -385,6 +386,11 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.sec4-cart-img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .cart-cnt {
@@ -479,6 +485,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
     text-align: center;
 }
@@ -492,40 +499,31 @@ nav {
     font-size: 16px;
 }
 
-.sec5-cart1 {
+.sec5-cart {
     width: 250px;
     height: 140px;
-    color: #1ab79d;
-    background-color: #1ab79d1a;
     padding: 40px 30px;
     border-radius: 10px;
+}
+
+.sec5-cart1 {
+    color: #1ab79d;
+    background-color: #1ab79d1a;
 }
 
 .sec5-cart2 {
-    width: 250px;
-    height: 140px;
     color: #ee4962;
     background-color: #ee49621a;
-    padding: 40px 30px;
-    border-radius: 10px;
 }
 
 .sec5-cart3 {
-    width: 250px;
-    height: 140px;
     color: #8f57ff;
     background-color: #8f57ff1a;
-    padding: 40px 30px;
-    border-radius: 10px;
 }
 
 .sec5-cart4 {
-    width: 250px;
-    height: 140px;
     color: #f8b720;
     background-color: #f8b7201a;
-    padding: 40px 30px;
-    border-radius: 10px;
 }
 
 /* Section 5 complete */
@@ -569,6 +567,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -728,3 +727,159 @@ footer {
 }
 
 /* Footer complete */
+
+/* Media Queries */
+
+@media (max-width: 375px) {
+    .nav-links {
+        display: none;
+    }
+    
+    .nav-icons i {
+        font-size: 12px;
+    }
+
+    .nav-icons button, .cart-cnt button, .sec1-cnt button, .sec4-btn {
+        font-size: 10px;
+    }
+
+    .nav-logo img {
+        width: 100px;
+    }
+
+    .sec1-cnt {
+        margin-top: 10px;
+    }
+
+    .sec1-cnt h1 {
+        font-size: 40px;
+        padding: 40px;
+    }
+
+    .sec1-cnt p {
+        font-size: 12px;
+        margin: 6px 0px 15px;
+    }
+
+    .sec1-imgs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-1 {
+        width: 60%;
+        margin-top: 0;
+    }
+
+    .img-2 {
+        width: 60%;
+        margin-bottom: 0;
+    }
+
+    .sub {
+        font-size: 10px;
+    }
+
+    .sec2-cnt h2 {
+        font-size: 30px;
+        margin: 50px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .cart {
+        width: 250px;
+    }
+
+    .cart div {
+        width: 60px;
+        height: 60px;
+        margin: 0px 0px 12px;
+    }
+
+    .cart div>img {
+        width: 30px;
+    }
+
+    .cart h3>a, .cart-cnt h3>a {
+        font-size: 18px;
+    }
+
+    .cart p {
+        font-size: 12px;
+    }
+
+    .cart span {
+        font-size: 12px;
+    }
+
+    .sec-3 {
+        gap: 20px;
+    }
+
+    .sec3-imgs img {
+        width: 350px;
+    }
+
+    .about, .sec4-cnt p {
+        font-size: 10px;
+    }
+
+    .sec3-cnt h2 {
+        font-size: 35px;
+        padding: 40px;
+    }
+
+    .sec3-para {
+        font-size: 12px;
+    }
+
+    .sec3-cnt ul li, .cart-cnt span {
+        font-size: 13px;
+    }
+
+    .sec4-cnt h2 {
+        font-size: 30px;
+        padding: 40px;
+    }
+
+    .cart-cnt {
+        width: 320px;
+        height: 120px;
+    }
+
+    .sec4-cart-img {
+        width: 320px;
+    }
+
+    .sec5-img1 {
+        height: 150px;
+    }
+
+    .sec5-img1 img {
+        width: 95%;
+    }
+
+    .sec-5 {
+        gap: 100px;
+    }
+
+    .sec5-cart {
+        width: 230px;
+        height: 120px;
+        padding: 30px 20px;
+    }
+
+    .sec5-cnt div h3 {
+        font-size: 35px;
+    }
+
+    .sec5-cnt div p {
+        font-size: 12px;
+    }
+
+    
+}
